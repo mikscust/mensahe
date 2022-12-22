@@ -1,26 +1,20 @@
 # color palette
 
-look for blue gradient colors
+
 
 #0B0B0C
 
 
 
-rgb(188, 235, 250)
+    color: #e6595b;
 
-rgb(222, 246, 255)
+    color: #ebd250;
 
-rgb(1, 174, 240)
+    color: #5279f8;
 
-rgb(0, 176, 235)
 
-rgb(1, 159, 219)
 
-rgb(37, 49, 56)
 
-rgb(251, 248, 240)
-
-rgb(249, 249, 249)
 
 
 fonts:
