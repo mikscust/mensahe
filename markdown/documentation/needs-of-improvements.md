@@ -1,0 +1,1 @@
+<!-- <meta property="og:image" content="https://mensahe.vercel.app/assets/images/svgs/mensahe-logo.svg"> -->
