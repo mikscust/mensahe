@@ -77,3 +77,27 @@ p {
 }
 
 I hope this gives you some ideas for creating a Neo-Brutalist website using CSS. Let me know if you have any other questions!
+
+aria
+lazy load
+
+
+    <!-- navigation bar start -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navigation bar end -->
+
+    <main>
+        <section>
+            <h1>mensahe</h1>
+            <p>experience the modern way to share your thoughts and feelings for someone with our message website service</p>
+            <a href="#">get started</a>
+        </section>
+    </main>
