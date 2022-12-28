@@ -1,103 +1,34 @@
 # color palette
 
+    color: hsl(359, 100%, 70%);
 
+    color: hsl(50, 100%, 70%);
 
-#0B0B0C
+    color: hsl(226, 100%, 75%);
 
+    color: hsl(0, 0%, 0%);
 
-
-    color: #e6595b;
-
-    color: #ebd250;
-
-    color: #5279f8;
-
-
-
-
-
-
-fonts:
-Comfortaa
-
-
-showcase handwritten font and example letter
-
-create div like paper intro her movie
-
-
-mensahe icon made by ry concept
+    color: hsl(0, 0%, 100%);
 
 illustration drawings like notion theme
 
-
 style: neobrutalism
 
-To create a website with a Neo-Brutalist aesthetic using CSS, you could start by using a monochromatic color scheme, with shades of grey or another neutral color. You could also use typography that is simple and sans-serif, and consider using larger font sizes to create a bold and functional look.
-
-In terms of layout, Neo-Brutalist websites often feature a grid-based structure, with elements arranged in a logical and orderly way. You could use CSS grid or flexbox to create this type of layout.
-
-To add a raw, unfinished concrete texture to your website, you could use a background image or gradient that resembles concrete, or use CSS techniques such as box-shadow or text-shadow to create the illusion of depth and texture.
-
-Here are a few examples of CSS styles you could use to create a Neo-Brutalist website:
-
-body {
-  background-color: #333;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 16px;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 20px;
-}
-
-.box {
-  background-color: #444;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-  padding: 20px;
-}
-
-h1 {
-  font-size: 32px;
-  text-align: center;
-  text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
-
-I hope this gives you some ideas for creating a Neo-Brutalist website using CSS. Let me know if you have any other questions!
-
 aria
+
 lazy load
 
 
-    <!-- navigation bar start -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- navigation bar end -->
+    Convenience: Digital letters can be accessed from any device with an internet connection, so you don't have to worry about losing the letter or being unable to access it when you need it.
 
-    <main>
-        <section>
-            <h1>mensahe</h1>
-            <p>experience the modern way to share your thoughts and feelings for someone with our message website service</p>
-            <a href="#">get started</a>
-        </section>
-    </main>
+    Versatility: Digital letters can include multimedia elements such as images, videos, and links, which can make them more interactive and engaging than physical letters.
+
+    Easy to store: Digital letters can be easily stored and organized on a computer or other digital device, making it easy to refer back to them at a later date.
+
+
+    Storage: Digital messages take up very little space, so you can store a large number of them without taking up physical space.
+
+    Sustainability: Digital letters are environmentally friendly because they do not require paper, ink, or transportation. This helps to reduce the carbon footprint associated with traditional mail.
+
+    Cost: Sending a digital message is usually free or very low cost, compared to the cost of stamp and envelopes for traditional mail.
+
