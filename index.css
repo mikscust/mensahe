@@ -122,3 +122,86 @@
 
 /* how it works section start */
 
+.how-it-works-section {
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+}
+
+.how-mensahe-works-video-container {
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+}
+
+.benefits-container {
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+    padding: 2rem;
+
+    margin: 0 1.25rem;
+}
+
+.benefits-question-text {
+    background-color: hsl(226, 100%, 75%);
+    padding: 1.5rem;
+
+    font-size: 1.5rem;
+    margin: 0 0 1.25rem;
+}
+
+.benefits-product-list {
+    list-style-type: none;
+    background-color: hsl(50, 100%, 70%);
+    padding: 0;
+
+    margin: 0 0 1.25rem;
+}
+
+.benefits-product-list-text {
+    padding: 1rem;
+}
+
+.benefits-service-list {
+    background-color: hsl(359, 100%, 70%);
+    padding: 0;
+    margin: 0 0 1.25rem;
+}
+
+.benefits-service-list-text {
+    padding: 1rem;
+}
+
+.benefits-product-list-text,
+.benefits-service-list-text {
+    margin: 0 0 0.625rem;
+}
+
+@media (max-width: 768px) {
+    .benefits-container {
+        font-size: 0.875rem;
+        margin: 0 10.625rem;
+    }
+
+    .benefits-question-text {
+        font-size: 1.25rem;
+    }
+
+    .benefits-product-list,
+    .benefits-service-list {
+        font-size: 0.875rem;
+        margin: 0 0 0.625rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefits-container {
+        font-size: 0.75rem;
+        margin: 0 0.3125rem;
+    }
+
+    .benefits-question-text {
+        font-size: 1.125rem;
+    }
+
+    .benefits-product-list,
+    .benefits-service-list {
+        font-size: 0.75rem;
+        margin: 0 0 0.3125rem;
+    }
+}
