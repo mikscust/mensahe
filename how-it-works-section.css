@@ -1,125 +1,3 @@
-/* navigation bar start */
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
-}
-
-.logo-container {
-    flex: 0 0 auto;
-}
-
-.mensahe-logo {
-    width: 4rem;
-    height: 4rem;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 auto;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-item {
-    margin: 0 0.625rem;
-}
-
-.nav-item-text {
-    text-decoration: none;
-    color: hsl(0, 0%, 0%);
-}
-
-.nav-item-text:hover,
-.nav-item-text:active {
-    text-decoration: underline;
-}
-
-.cta-button {
-    display: block;
-    width: 8rem;
-    height: 3rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: hsl(0, 0%, 0%);
-    color: hsl(0, 0%, 100%);
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 0.0625rem;
-    text-align: center;
-    line-height: 3.125rem;
-    transition: transform 0.2s;
-}
-
-.cta-button:hover {
-    background-color: hsl(359, 100%, 70%);
-    color: hsl(0, 0%, 0%);
-    transform: translateY(-0.2rem);
-    -webkit-transform: translateY(-0.2rem);
-    -moz-transform: translateY(-0.2rem);
-    -ms-transform: translateY(-0.2rem);
-    -o-transform: translateY(-0.2rem);
-}
-
-@media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-    }
-
-    .nav-list {
-        flex-direction: column;
-    }
-
-    .nav-item {
-        margin: 10px 0;
-    }
-}
-
-/* navigation bar end */
-
-/* introduction section start */
-
-.introduction-section {
-    display: flex;
-    align-items: center;
-    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
-}
-
-.mensahe-illustration {
-    width: 50%;
-    order: 1;
-}
-
-.introduction-text-container {
-    width: 50%;
-    order: 2;
-}
-
-@media (max-width: 768px) {
-    .introduction-section {
-        flex-direction: column;
-    }
-
-    .mensahe-illustration {
-        width: 100%;
-        order: 1;
-    }
-
-    .introduction-text-container {
-        width: 100%;
-        order: 2;
-    }
-}
-
-/* introduction section end */
-
 /* how it works section start */
 
 .how-it-works-section {
@@ -212,6 +90,7 @@
     overflow: hidden;
     white-space: nowrap;
     border-top: solid 0.1rem hsl(0, 0%, 0%);
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
 
     padding: 2rem;
 }
@@ -242,3 +121,6 @@
         font-size: 0.875rem;
     }
 }
+/* customer stories end */
+
+/* how it works section end */
