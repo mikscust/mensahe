@@ -1,4 +1,63 @@
+/* about start */
+
 .about-title {
     text-align: center;
     padding: 2rem;
 }
+
+/* mission start, culture start, contact start */
+.mission-container,
+.culture-container,
+.contact-container {
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    border: solid 0.1rem hsl(0, 0%, 0%);
+    box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -webkit-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -moz-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -ms-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -o-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+}
+
+.mission-title,
+.mission-paragraph-text,
+
+.culture-title,
+.culture-paragraph-text,
+
+.contact-title,
+.contact-paragraph-text {
+    display: inline-block;
+    text-align: left;
+    padding: 1rem;
+}
+
+.contact-button {
+    background-color: hsl(226, 100%, 75%);
+    border: solid 0.1rem hsl(0, 0%, 0%);
+    box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -webkit-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -moz-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -ms-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -o-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    transition: transform 0.2s; 
+}
+
+.contact-button:hover {
+    transform: translateY(-0.3125rem);
+    -webkit-transform: translateY(-0.3125rem);
+    -moz-transform: translateY(-0.3125rem);
+    -ms-transform: translateY(-0.3125rem);
+    -o-transform: translateY(-0.3125rem);
+
+    background-color: hsl(359, 100%, 70%);
+}
+
+/* mission start, culture start, contact end */
+
+/* mission end */
