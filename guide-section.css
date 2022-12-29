@@ -41,6 +41,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
 }
 
 .who-guide-container {
@@ -95,6 +96,12 @@
 .what-generate-text-answer-button {
     background-color: hsl(50, 100%, 70%);
     border: solid 0.1rem hsl(0, 0%, 0%);
+    transition: transform 0.2s;
+}
+
+.who-generate-text-answer-button:active,
+.what-generate-text-answer-button:active {
+    transform: translateY(-2px);
 }
 
 .who-text-answer-output,

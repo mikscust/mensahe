@@ -17,3 +17,9 @@ style: neobrutalism
 aria
 
 lazy load
+
+h1 to h3 only
+
+h1 - h2 (main title - title)
+
+h3 (title inside div)
