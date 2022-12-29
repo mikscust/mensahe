@@ -108,6 +108,45 @@
 .what-text-answer-output {
     border-bottom: solid 0.1rem hsl(0, 0%, 0%);
 }
-
-
 /* who and what guide end */
+
+/* demos start */
+.demos-container {
+    padding: 2rem;
+}
+.demos-title {
+    text-align: center;
+}
+
+.demos-list {
+    display: flex;
+    justify-content: center;
+
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .demos-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.demos-list-buttons {
+    margin: 1rem;
+}
+
+.demos-buttons {
+    background-color: hsl(226, 100%, 75%);
+    border: solid 0.1rem hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 0%);
+    padding: 2rem;
+
+    box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -webkit-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -moz-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -ms-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+    -o-box-shadow: 0.1875rem 0.1875rem 0rem 0.0625rem hsl(0, 0%, 0%);
+}
