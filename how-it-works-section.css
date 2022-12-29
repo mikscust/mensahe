@@ -67,39 +67,6 @@
     margin: 0 0 0.625rem;
 }
 
-@media (max-width: 768px) {
-    .benefits-container {
-        font-size: 0.875rem;
-        margin: 0 10.625rem;
-    }
-
-    .benefits-question-text {
-        font-size: 1.25rem;
-    }
-
-    .benefits-product-list,
-    .benefits-service-list {
-        font-size: 0.875rem;
-        margin: 0 0 0.625rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .benefits-container {
-        font-size: 0.75rem;
-        margin: 0 0.3125rem;
-    }
-
-    .benefits-question-text {
-        font-size: 1.125rem;
-    }
-
-    .benefits-product-list,
-    .benefits-service-list {
-        font-size: 0.75rem;
-        margin: 0 0 0.3125rem;
-    }
-}
 /* benefits end */
 
 /* customer stories start */
