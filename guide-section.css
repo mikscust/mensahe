@@ -34,16 +34,61 @@
 }
 /* guide title end */
 
-/* who and what guide start */
+
 .who-and-what-guide-container {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
-@media (max-width: 768px) {
+.who-guide-container {
+    background-color: hsl(226, 100%, 75%);
+}
+
+.what-guide-container {
+    background-color: hsl(359, 100%, 70%);
+}
+
+.who-guide-container, 
+.what-guide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 12.5rem;
+    width: 18.75rem;
+    padding: 1.25rem;
+    margin: 1rem;
+    border: solid 0.1rem hsl(0, 0%, 0%);
+}
+
+.who-text-question,
+.who-generate-text-answer-button,
+.who-text-answer-output,
+.what-text-question,
+.what-generate-text-answer-button,
+.what-text-answer-output {
+    line-height: 1.5;
+    padding: 0.5rem;
+}
+
+/*
+.who-generate-text-answer-button,
+.what-generate-text-answer-button {
+
+}
+*/
+
+@media (max-width: 600px) {
     .who-and-what-guide-container {
         flex-direction: column;
     }
-}
 
+    .who-guide-container, .what-guide-container {
+        width: 100%;
+        height: auto;
+    }
+}
