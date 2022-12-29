@@ -1,5 +1,10 @@
 /* about start */
 
+#about-section {
+    padding: 2rem;
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+}
+
 .about-title {
     text-align: center;
     padding: 2rem;
@@ -32,7 +37,9 @@
     text-align: left;
     padding: 1rem;
 }
+/* mission start, culture start, contact end */
 
+/* contact button start */
 .contact-button {
     background-color: hsl(226, 100%, 75%);
     border: solid 0.1rem hsl(0, 0%, 0%);
@@ -57,7 +64,6 @@
 
     background-color: hsl(359, 100%, 70%);
 }
-
-/* mission start, culture start, contact end */
+/* contact button end */
 
 /* mission end */
