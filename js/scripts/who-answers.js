@@ -3,6 +3,7 @@ const whoOutput = document.querySelector(".who-text-answer-output");
 
 const whoAnswerTexts = [
     "family member",
+    "partner",
     "friend",
     "classmate",
     "colleague",
@@ -14,6 +15,7 @@ const whoAnswerTexts = [
     "client",
     "stranger",
     "yourself",
+    "crush",
     "anyone"
 ];
 

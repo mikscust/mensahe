@@ -1,0 +1,49 @@
+/* guide section start */
+
+/* guide title start */
+.guide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.guide-title {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .guide-container {
+        margin: auto;
+    }
+
+    .guide-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .guide-container {
+        margin: 0 auto;
+    }
+
+    .guide-title {
+        text-align: center;
+    }
+}
+/* guide title end */
+
+/* who and what guide start */
+.who-and-what-guide-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .who-and-what-guide-container {
+        flex-direction: column;
+    }
+}
+
