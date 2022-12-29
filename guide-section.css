@@ -34,7 +34,7 @@
 }
 /* guide title end */
 
-
+/* who and what guide start */
 .who-and-what-guide-container {
     display: flex;
     flex-direction: column;
@@ -80,13 +80,6 @@
     padding: 0.5rem;
 }
 
-/*
-.who-generate-text-answer-button,
-.what-generate-text-answer-button {
-
-}
-*/
-
 @media (max-width: 600px) {
     .who-and-what-guide-container {
         flex-direction: column;
@@ -97,3 +90,17 @@
         height: auto;
     }
 }
+
+.who-generate-text-answer-button,
+.what-generate-text-answer-button {
+    background-color: hsl(50, 100%, 70%);
+    border: solid 0.1rem hsl(0, 0%, 0%);
+}
+
+.who-text-answer-output,
+.what-text-answer-output {
+    border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+}
+
+
+/* who and what guide end */
