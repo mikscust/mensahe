@@ -6,7 +6,15 @@
 
 .how-mensahe-works-video-container {
     border-bottom: solid 0.1rem hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.how-mensahe-works-video {
+    display: block;
+    margin-top: 2.5rem
+  }
 
 /* benefits  start*/
 .benefits-container {
